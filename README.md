@@ -5,8 +5,12 @@
     ```commandline
     python ./split_train_val.py    
     ```
-5. Train ResNet-20 model:
+5. Train ResNet-20 model with validation:
     ```commandline
+    python ./train_and_validate.py    
+    ```
+   or train on full train set:
+   ```commandline
     python ./train.py    
     ```
    use `--use-cuda` if you need.
